@@ -6,10 +6,12 @@ import org.example.crtd.Exceptions.ResourceNotFoundException;
 import org.example.crtd.Repository.StudentRepository;
 import org.example.crtd.DTO.StudentRequest;
 import org.example.crtd.DTO.StudentResponse;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@Service
 public class StudentService {
     private final StudentRepository studentRepository;
 
