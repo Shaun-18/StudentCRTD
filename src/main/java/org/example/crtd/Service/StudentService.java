@@ -29,8 +29,8 @@ public class StudentService {
 
         Student student = new Student();
 
-        student.setFirstName(request.firstName());
-        student.setLastName(request.lastName());
+        student.setFirstname(request.firstName());
+        student.setLastname(request.lastName());
         student.setEmail(request.email());
 
         Student savedStudent = studentRepository.save(student);
@@ -75,8 +75,8 @@ public class StudentService {
             );
         }
 
-        student.setFirstName(request.firstName());
-        student.setLastName(request.lastName());
+        student.setFirstname(request.firstName());
+        student.setLastname(request.lastName());
         student.setEmail(request.email());
 
         Student updatedStudent = studentRepository.save(student);
@@ -105,8 +105,8 @@ public class StudentService {
 
         return new StudentResponse(
                 student.getId(),
-                student.getFirstName(),
-                student.getLastName(),
+                student.getFirstname(),
+                student.getLastname(),
                 student.getEmail()
         );
     }
