@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CrtdApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CrtdApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CrtdApplication.class, args);
+    }
 
 }
