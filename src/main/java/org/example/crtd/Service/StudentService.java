@@ -1,6 +1,8 @@
 package org.example.crtd.Service;
 
 import org.example.crtd.Entity.Student;
+import org.example.crtd.Exceptions.DuplicateResourceException;
+import org.example.crtd.Exceptions.ResourceNotFoundException;
 import org.example.crtd.Repository.StudentRepository;
 import org.example.crtd.DTO.StudentRequest;
 import org.example.crtd.DTO.StudentResponse;
